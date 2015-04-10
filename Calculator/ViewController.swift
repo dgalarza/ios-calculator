@@ -23,5 +23,10 @@ class ViewController: UIViewController {
             display.text = digit
         }
     }
+    
+    @IBAction func reset() {
+        userIsTyping = false
+        display.text = "0"
+    }
 }
 

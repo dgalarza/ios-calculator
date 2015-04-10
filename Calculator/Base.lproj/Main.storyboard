@@ -123,6 +123,17 @@
                                     <action selector="inputDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cZG-ul-fxv"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgj-Ya-pUd">
+                                <rect key="frame" x="136" y="426" width="84" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="inputDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cgT-g0-VIp"/>
+                                    <action selector="reset" destination="BYZ-38-t0r" eventType="touchUpInside" id="GX7-TJ-6PJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
