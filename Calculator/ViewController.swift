@@ -9,17 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var display: UILabel!
+    
+    var userIsTyping: Bool = false
+    
+    @IBAction func inputDigit(sender: UIButton) {
+        let digit = sender.currentTitle!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        if userIsTyping {
+            display.text = display.text! + digit
+        } else {
+            userIsTyping = true
+            display.text = digit
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
