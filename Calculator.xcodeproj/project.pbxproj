@@ -77,11 +77,8 @@
 		22D3AADB1AD8616500BAF84A /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				22D3AADE1AD8616500BAF84A /* AppDelegate.swift */,
 				22D3AAE01AD8616500BAF84A /* ViewController.swift */,
 				22D3AAE21AD8616500BAF84A /* Main.storyboard */,
-				22D3AAE51AD8616500BAF84A /* Images.xcassets */,
-				22D3AAE71AD8616500BAF84A /* LaunchScreen.xib */,
 				22D3AADC1AD8616500BAF84A /* Supporting Files */,
 			);
 			path = Calculator;
@@ -90,6 +87,9 @@
 		22D3AADC1AD8616500BAF84A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				22D3AAE51AD8616500BAF84A /* Images.xcassets */,
+				22D3AAE71AD8616500BAF84A /* LaunchScreen.xib */,
+				22D3AADE1AD8616500BAF84A /* AppDelegate.swift */,
 				22D3AADD1AD8616500BAF84A /* Info.plist */,
 			);
 			name = "Supporting Files";
